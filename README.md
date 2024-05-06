@@ -1,16 +1,25 @@
-# first_project
-
-flutter test
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Architecture <br/>
+📦Mingle<br/>
+┣ 📂android<br/>
+ ┃ ┣ 📂.gradle<br/>
+┃ ┣ 📂app<br/>
+ ┃ ┃ ┣ 📜build.gradle<br/>
+ ┃ ┃ ┗ 📜google-services.json<br/>
+ ┃ ┣ 📂gradle<br/>
+ ┃ ┃ ┗ 📂wrapper<br/>
+ ┃ ┣ 📂src<br/>
+ ┃ ┣ 📜build.gradle<br/>
+┣ 📂assets<br/>
+ ┃ ┣ 📂Box<br/>
+ ┃ ┣ 📂Character<br/>
+ ┃ ┣ 📂fonts<br/>
+ ┃ ┣ 📂Icon<br/>
+ ┃ ┗ 📂imgs<br/>
+┣ 📂functions<br/>
+┣ 📂lib<br/>
+ ┣ 📜.firebaserc<br/>
+ ┣ 📜.flutter-plugins<br/>
+ ┣ 📜.flutter-plugins-dependencies<br/>
+ ┣ 📜firebase.json<br/>
+ ┣ 📜flutter_launcher_icons.yaml<br/>
+ ┣ 📜google-services.json<br/>
