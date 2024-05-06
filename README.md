@@ -23,3 +23,10 @@
  ┣ 📜firebase.json<br/>
  ┣ 📜flutter_launcher_icons.yaml<br/>
  ┣ 📜google-services.json<br/>
+
+
+
+
+
+# ERD
+![image](https://github.com/sangmu1126/MingleGDSC/assets/82524598/6b058e07-d954-48f1-a78b-f402613e671f)
