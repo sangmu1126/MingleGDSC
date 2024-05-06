@@ -29,4 +29,5 @@
 
 
 # ERD
-![image](https://github.com/sangmu1126/MingleGDSC/assets/82524598/6b058e07-d954-48f1-a78b-f402613e671f)
+![image](https://github.com/sangmu1126/MingleGDSC/assets/82524598/46b14f8c-d632-4a43-8a67-7adc5fa2b491)
+
