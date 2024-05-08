@@ -17,17 +17,11 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      return web;
+      return android;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
         return android;
-      case TargetPlatform.iOS:
-        return ios;
-      case TargetPlatform.macOS:
-        return macos;
-      case TargetPlatform.windows:
-        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -40,52 +34,11 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDzm1dJoBZUIjrsF5EurNT48vkFLcsX_Ic',
-    appId: '1:1024000105622:web:f114904d40a7dd7414b6b7',
-    messagingSenderId: '1024000105622',
-    projectId: 'mingle-411805',
-    authDomain: 'mingle-411805.firebaseapp.com',
-    storageBucket: 'mingle-411805.appspot.com',
-    measurementId: 'G-BBYMPQNB5X',
-  );
-
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBIZEBv352_Ug4FpVFLQT-zj5CS0_4SixM',
+    apiKey: '',
     appId: '1:1024000105622:android:3630c5b45522b78e14b6b7',
     messagingSenderId: '1024000105622',
     projectId: 'mingle-411805',
     storageBucket: 'mingle-411805.appspot.com',
   );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAS-y8M73i2-zaAlnDNC1MAz_llc61GbLc',
-    appId: '1:1024000105622:ios:c629875d281531ff14b6b7',
-    messagingSenderId: '1024000105622',
-    projectId: 'mingle-411805',
-    storageBucket: 'mingle-411805.appspot.com',
-    androidClientId: '1024000105622-euau9pdgtctaiift2vs47lsmp9ekuhi1.apps.googleusercontent.com',
-    iosBundleId: 'com.sooming.firstProject',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAS-y8M73i2-zaAlnDNC1MAz_llc61GbLc',
-    appId: '1:1024000105622:ios:c629875d281531ff14b6b7',
-    messagingSenderId: '1024000105622',
-    projectId: 'mingle-411805',
-    storageBucket: 'mingle-411805.appspot.com',
-    androidClientId: '1024000105622-euau9pdgtctaiift2vs47lsmp9ekuhi1.apps.googleusercontent.com',
-    iosBundleId: 'com.sooming.firstProject',
-  );
-
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDzm1dJoBZUIjrsF5EurNT48vkFLcsX_Ic',
-    appId: '1:1024000105622:web:19c1c3871d67949414b6b7',
-    messagingSenderId: '1024000105622',
-    projectId: 'mingle-411805',
-    authDomain: 'mingle-411805.firebaseapp.com',
-    storageBucket: 'mingle-411805.appspot.com',
-    measurementId: 'G-BZN6J46X7L',
-  );
-
 }
